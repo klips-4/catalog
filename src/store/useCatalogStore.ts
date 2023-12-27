@@ -12,7 +12,7 @@ export const useCatalogStore = defineStore('products', {
     actions: {
 
         fetchCatalogData() {
-            fetch("../src/database/items.json").then((response) => response.json()).then((data)=>{
+            fetch("./src/database/items.json").then((response) => response.json()).then((data)=>{
                 this.products = data
             })
 

@@ -4,7 +4,7 @@
 
 <script setup lang="ts">
 
-import Catalog from "../components/Catalog/Catalog.vue";
+import Catalog from "/src/components/Catalog/Catalog.vue";
 </script>
 
 <style scoped>
